@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio",
+      "description": "My personal portfolio website showcasing my projects and skills.",
+      "url": "https://github.com/omerawwad/portfolio",
+      "skills": ["react", "javascript", "node"]
+    },
+    {
+      "name": "Review Me",
+      "description": "Fully Designed and implemented over 30 RESTful JSON APIs including fetching items, fetching reviews, adding items, create review, handling sessions, adding questions and answers, searching, handling notifications and other features. Fully Implement Front-End using react.js, fetching real-time data, sync state and session with the backend.",
+      "url": "https://github.com/omerawwad/reviewme",
+      "skills": ["python", "django", "react", "postgresql"]
+    }
+  ]
+}

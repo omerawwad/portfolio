@@ -1,8 +1,9 @@
 import "../App.css";
 import "../styles/navbar.css";
 import { useState } from "react";
+import { ExternalLink } from "./graphics/ExternalLink";
 
-function NavBar({ nav_links }) {
+function NavBar({ nav_links, resume_link }) {
   //   const [selectedLink, setSelectedLink] = useState(nav_links[0].name);
   const [selectedLink, setSelectedLink] = useState(nav_links[0].name);
 
@@ -21,6 +22,17 @@ function NavBar({ nav_links }) {
             onClick={() => handleLinkClick(nav_link.name)}
           />
         ))}
+        <a
+          href={resume_link}
+          className="resume-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="resume">
+            Resume
+            <ExternalLink className="external-link" />
+          </span>
+        </a>
       </div>
     </div>
   );

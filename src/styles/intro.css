@@ -18,7 +18,7 @@
 
 @media (min-width: 768px) {
   .intro {
-    max-width: 450px; /* For tablets and desktops */
+    max-width: 450px;
   }
 }
 
