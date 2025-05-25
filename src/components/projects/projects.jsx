@@ -1,9 +1,7 @@
-import PROJECTS from "../../data/projects";
 import SKILLS_ICONS from "../../data/skills_icons";
 import "../../styles/projects/projects.css";
 
-function Projects() {
-  const projects = PROJECTS.projects;
+function Projects({ projects }) {
   return (
     <div className="projects">
       <h2 className="section-title">Projects</h2>

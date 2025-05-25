@@ -3,9 +3,9 @@ import "../styles/navbar.css";
 import { useState } from "react";
 import { ExternalLink } from "./graphics/ExternalLink";
 
-function NavBar({ nav_links, resume_link }) {
+function NavBar({ nav_links, resume_link, active_link }) {
   //   const [selectedLink, setSelectedLink] = useState(nav_links[0].name);
-  const [selectedLink, setSelectedLink] = useState(nav_links[0].name);
+  const [selectedLink, setSelectedLink] = useState(active_link);
 
   const handleLinkClick = (linkName) => {
     setSelectedLink(linkName);

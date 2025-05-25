@@ -1,18 +1,22 @@
-import CERTIFICATES from "../../data/certificates.json";
 import SKILLS_ICONS from "../../data/skills_icons";
 
 import mern from "../../images/certificates/mern.jpg";
 import supMl from "../../images/certificates/sup_ml.jpg";
+import postman from "../../images/certificates/postman.png";
+import nti from "../../images/certificates/nti.jpg";
+import edges from "../../images/certificates/edges.jpg";
 
 import "../../styles/education/education.css";
 
 const certificateImages = {
   mern: mern,
   supMl: supMl,
+  postman: postman,
+  nti: nti,
+  edges: edges,
 };
 
-function Certificates() {
-  const certificates = CERTIFICATES.certificates;
+function Certificates({ certificates }) {
   return (
     <div className="certificates">
       <h2 className="section-title">Certificates</h2>

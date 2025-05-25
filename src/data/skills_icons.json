@@ -14,5 +14,18 @@
   "cpp": "devicon-cplusplus-plain",
   "javascript": "devicon-javascript-plain",
   "c#": "devicon-csharp-line",
-  "go": "devicon-go-plain"
+  "go": "devicon-go-plain",
+  "postman": "devicon-postman-plain",
+  "swagger": "devicon-swagger-plain",
+  "git": "devicon-git-plain",
+  "nextjs": "devicon-nextjs-plain",
+  "redux": "devicon-redux-original",
+  "pandas": "devicon-pandas-plain",
+  "numpy": "devicon-numpy-plain",
+  "scikit-learn": "devicon-scikitlearn-plain",
+  "embeddedc": "devicon-embeddedc-plain",
+  "docker": "devicon-docker-plain",
+  "linux": "devicon-linux-plain",
+  "aws": "devicon-amazonwebservices-plain",
+  "fastapi": "devicon-fastapi-plain"
 }
